@@ -8,11 +8,11 @@
 
     <repository>
       <id>releases</id>
-      <url>http://UBSLABWIN13:8080/nexus-2.14.3-02/content/repositories/releases</url>
+      <url>http://localhost:8080/nexus-2.14.3-02/content/repositories/releases</url>
     </repository>
 	    <snapshotRepository>
       <id>snapshot</id>
-      <url>http://UBSLABWIN13:8080/nexus-2.14.3-02/content/repositories/snapshots</url>
+      <url>http://localhost:8080/nexus-2.14.3-02/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
@@ -48,7 +48,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://UBSLABWIN13:8080/nexus-2.14.3-02</nexusUrl>
+      <nexusUrl>http://localhost:8080/nexus-2.14.3-02</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
