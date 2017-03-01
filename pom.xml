@@ -6,13 +6,13 @@
   <packaging>war</packaging>
     <distributionManagement>
 
-    <repository>
+    <!-- <repository>
       <id>releases</id>
       <url>http://localhost:8080/nexus-2.14.3-02/content/repositories/releases</url>
-    </repository>
+    </repository> -->
 	    <snapshotRepository>
       <id>snapshot</id>
-      <url>http://localhost:8080/nexus-2.14.3-02/content/repositories/snapshots</url>
+      <url>http://localhost:8080/nexus-2.14.3-02/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
